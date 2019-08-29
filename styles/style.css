@@ -1,0 +1,90 @@
+body{
+    margin: 0 0 0 0;
+    background-color:   #eef0f2  ;
+}
+.fullBody {
+    display: flex;
+    flex-flow: column;
+    width: 425.5px;
+    height: 800px;
+    margin: 40px auto;
+    max-height: 600px;
+    
+}
+.texHalf{
+    flex:4;
+    background-color:  white ;
+    text-align: center;
+    font-size: x-large;
+    word-wrap: break-word;
+    display: flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+}
+.texHalf div{
+    flex: 1;
+    flex-wrap: wrap;
+}
+.text_box{
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+.inputHalf{
+    flex: 10;
+    display: flex;
+    flex-flow: row;
+}
+.Numbers {
+    flex: 3;
+    display: flex;
+    flex-flow: column;
+}
+.Numbers div{   
+    flex: 1;
+    display: flex;
+    flex-flow: row;
+}
+.button_n{
+    flex: 1;
+    background-color:   #424949   ;
+    border: none;
+    color: white;
+    font-size: x-large;
+
+}
+.Operators {
+    flex: 1;
+    display: flex;
+    flex-flow: column;
+}
+.button_o {
+    flex: 1;
+    background-color:     #d37a21     ;
+    border: none;
+    color: white;
+    font-size: x-large;
+}
+.clear {
+    flex: 1;
+    background-color:   #424949   ;
+    border: none;
+    color: white;
+    font-size: x-large;
+}
+.equal {
+    flex: 1;
+    background-color:   #424949   ;
+    border: none;
+    color: white;
+    font-size: x-large;
+}
+/*
+.back_space {
+    flex: 1;
+    background-color:     #d37a21     ;
+    border: none;
+    color: white;
+    font-size: x-large;
+}*/
